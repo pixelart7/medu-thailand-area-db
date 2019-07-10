@@ -67,6 +67,6 @@ var preprocess = function preprocess(data) {
   return expanded;
 };
 
-var db = preprocess(require('./node_modules/thai-address-database/database/db.json'));
+var db = preprocess(require('thai-address-database/database/db.json'));
 
 exports.db = db
